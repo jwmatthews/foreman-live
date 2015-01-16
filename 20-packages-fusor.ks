@@ -46,29 +46,31 @@ tftp-server
 wget
 xinetd
 
+
+# anaconda installer wants these, otherwise complains when doing install to disk
 # Unnecessary desktop dependencies
--abattis-cantarell-fonts
--lohit-assamese-fonts
--lohit-bengali-fonts
--lohit-devanagari-fonts
--lohit-gujarati-fonts
--lohit-kannada-fonts
--lohit-malayalam-fonts
--lohit-marathi-fonts
--lohit-nepali-fonts
--lohit-oriya-fonts
--lohit-punjabi-fonts
--lohit-tamil-fonts
--lohit-telugu-fonts
--lklug-fonts
--madan-fonts
--sil-abyssinica-fonts
--sil-nuosu-fonts
--sil-padauk-fonts
--thai-scalable-fonts-common
--thai-scalable-waree-fonts
--vlgothic-fonts
--wqy-microhei-fonts
+#-abattis-cantarell-fonts
+#-lohit-assamese-fonts
+#-lohit-bengali-fonts
+#-lohit-devanagari-fonts
+#-lohit-gujarati-fonts
+#-lohit-kannada-fonts
+#-lohit-malayalam-fonts
+#-lohit-marathi-fonts
+#-lohit-nepali-fonts
+#-lohit-oriya-fonts
+#-lohit-punjabi-fonts
+#-lohit-tamil-fonts
+#-lohit-telugu-fonts
+#-lklug-fonts
+#-madan-fonts
+#-sil-abyssinica-fonts
+#-sil-nuosu-fonts
+#-sil-padauk-fonts
+#-thai-scalable-fonts-common
+#-thai-scalable-waree-fonts
+#-vlgothic-fonts
+#-wqy-microhei-fonts
 
 # selinux toolchain of policycoreutils, libsemanage, ustr
 -policycoreutils
@@ -87,6 +89,8 @@ foreman-proxy
 foreman-postgresql
 mod_passenger
 qpid-cpp-client-devel
+python-crane
+python-flask
 ruby193-rubygem-passenger-native
 -rubygem-hammer_cli_csv
 -capsule-installer

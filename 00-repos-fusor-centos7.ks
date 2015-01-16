@@ -1,5 +1,7 @@
-repo --name=centos7 --baseurl=http://ftp.usf.edu/pub/centos/7.0.1406/os/x86_64/
-repo --name=centos7-updates --baseurl=http://ftp.usf.edu/pub/centos/7/updates/x86_64/
+repo --name=centos7 --mirrorlist=http://mirrorlist.centos.org/?release=7&arch=$basearch&repo=os
+repo --name=centos7-updates --mirrorlist=http://mirrorlist.centos.org/?release=7&arch=$basearch&repo=updates
+repo --name=centos7-extras --mirrorlist=http://mirrorlist.centos.org/?release=7&arch=$basearch&repo=extras
+
 repo --name=epel --baseurl=http://mirror.pnl.gov/epel/7/x86_64/
 repo --name=katello --baseurl=https://fedorapeople.org/groups/katello/releases/yum/nightly/katello/RHEL/7Server/x86_64/
 repo --name=foreman --baseurl=http://yum.theforeman.org/nightly/el7/x86_64/
