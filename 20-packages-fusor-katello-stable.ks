@@ -35,8 +35,8 @@ httpd
 mod_passenger
 mod_ssl
 postgresql-server
-puppet
-puppet-server
+puppet = 3.7.3
+puppet-server = 3.7.3
 foreman-release-scl
 foreman-cli
 facter
@@ -88,8 +88,8 @@ foreman-proxy
 foreman-postgresql
 mod_passenger
 qpid-cpp-client-devel
-python-crane
-python-flask
+#python-crane
+#python-flask
 ruby193-rubygem-passenger-native
 -rubygem-hammer_cli_csv
 -capsule-installer
